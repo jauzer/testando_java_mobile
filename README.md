@@ -1,1 +1,1 @@
-# testando_java_mobile
+# AppEscola - Testing Mobile App (Java)
