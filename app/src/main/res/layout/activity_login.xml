@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="true"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btn_return"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_gravity="fill"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="1"
+        android:clickable="true"
+        app:backgroundTint="#FFFFFF"
+        app:srcCompat="@drawable/ic_arrow_left_24"
+        app:useCompatPadding="false" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp"
+        app:srcCompat="@drawable/ic_shield_logo_100dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/inter_semibold"
+            android:letterSpacing="-0.04"
+            android:text="Faça seu login"
+            android:textColor="@color/black"
+            android:textSize="26sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:fontFamily="@font/inter_regular"
+            android:letterSpacing="-0.02"
+            android:text="Faça login para continuar usando o app"
+            android:textColor="#B3000000"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:fontFamily="@font/inter_medium"
+                android:letterSpacing="-0.04"
+                android:text="Email"
+                android:textColor="@color/black"
+                android:textSize="22sp" />
+
+            <!--android:textColorHint="@color/border_input_text" -->
+            <EditText
+                android:id="@+id/editTextEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/rounded_input_text"
+                android:ems="10"
+                android:fontFamily="@font/inter_medium"
+                android:gravity="center_vertical"
+                android:hint="seuemail@gmail.com"
+                android:inputType="textEmailAddress"
+                android:letterSpacing="-0.03"
+                android:padding="18dp"
+                android:textColorHint="#A1A1A1"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="12dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:fontFamily="@font/inter_medium"
+                android:letterSpacing="-0.04"
+                android:text="Senha"
+                android:textColor="@color/black"
+                android:textSize="22sp" />
+
+            <!--android:textColorHint="@color/border_input_text" -->
+            <EditText
+                android:id="@+id/editTextPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/rounded_input_text"
+                android:ems="10"
+                android:fontFamily="@font/inter_medium"
+                android:gravity="center_vertical"
+                android:hint="Informe sua senha"
+                android:inputType="textEmailAddress"
+                android:letterSpacing="-0.03"
+                android:padding="18dp"
+                android:textColorHint="#A1A1A1"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:orientation="horizontal"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter_semibold"
+            android:letterSpacing="-0.03"
+            android:text="Esqueceu a senha?"
+            android:textColor="@color/primary_color"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_medium"
+        android:paddingLeft="12dp"
+        android:paddingTop="16dp"
+        android:paddingRight="12dp"
+        android:paddingBottom="16dp"
+        android:text="Logar-se"
+        android:textColorLink="#FFFFFF"
+        android:textSize="14sp"
+        android:backgroundTint="@color/primary_color"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

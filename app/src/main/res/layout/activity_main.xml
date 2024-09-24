@@ -7,12 +7,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
-    android:paddingStart="16dp"
-    android:paddingLeft="16dp"
-    android:paddingTop="16dp"
-    android:paddingEnd="16dp"
-    android:paddingRight="16dp"
-    android:paddingBottom="16dp"
     tools:context=".MainActivity">
 
 
@@ -64,7 +58,7 @@
             android:fontFamily="@font/inter_semibold"
             android:text="O lugar certo para encontrar as melhores escolas"
             android:textColor="@color/black"
-            android:textSize="26sp"
+            android:textSize="24sp"
             android:layout_marginTop="2dp"/>
 
         <TextView
@@ -74,7 +68,7 @@
             android:fontFamily="@font/inter_regular"
             android:text="Encontre as melhores escolas de Alegrete para matricular seu filho. Aqui você encontra tudo que precisa em um só lugar"
             android:textColor="#B3000000"
-            android:textSize="16sp"
+            android:textSize="14sp"
             android:layout_marginTop="10dp"/>
 
         <Button
